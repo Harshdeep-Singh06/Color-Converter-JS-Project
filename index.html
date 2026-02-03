@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Color Changer</title>
+</head>
+
+<body class="h-screen bg-gray-100 flex flex-col">
+
+  <nav class="bg-gray-900 text-gray-100 shadow-md">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="flex justify-center items-center h-16">
+        <h1 class="text-2xl font-bold 
+          bg-gradient-to-r from-red-500 via-yellow-400 via-green-400 via-blue-500 to-purple-600
+          bg-clip-text text-transparent">
+          Color Converter 🌈
+        </h1>
+      </div>
+    </div>
+  </nav>
+
+  <section class="flex flex-col items-center justify-center bg-gray-900 gap-4 flex-1">
+    <button class="w-40 h-16 bg-blue-500 text-white/60 text-2xl font-bold hover:-translate-y-1 transition duration-200 transform skew-x-12 hover:skew-x-0 transition active:translate-y-1 active:shadow-inner active:bg-blue-700 transition duration-100">
+      Blue
+    </button>
+    <button class="w-40 h-16 bg-orange-500 text-white/60 text-2xl font-bold hover:-translate-y-1 transition duration-200  transform skew-x-12 hover:skew-x-0 transition active:translate-y-1 active:shadow-inner active:bg-orange-700
+               transition duration-100">
+      Orange
+    </button>
+    <button class="w-40 h-16 bg-green-500 text-white/60 text-2xl font-bold hover:-translate-y-1 transition duration-200 transform skew-x-12 hover:skew-x-0 transition active:translate-y-1 active:shadow-inner active:bg-green-700 transition duration-100">
+     Green
+    </button>
+    <button class="w-40 h-16 bg-yellow-500 text-white/60 text-2xl font-bold hover:-translate-y-1 transition duration-200 transform skew-x-12 hover:skew-x-0 transition active:translate-y-1 active:shadow-inner active:bg-yellow-700 transition duration-100 ">
+      Yellow
+    </button>
+  </section>
+
+</body>
+</html>
