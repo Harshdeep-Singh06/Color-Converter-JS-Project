@@ -23,3 +23,4 @@ Built using **HTML**, **Tailwind CSS**, and **Vanilla JavaScript** to practice D
 
 ---
 
+![Color Switcher Screenshot](screenshot.png)
